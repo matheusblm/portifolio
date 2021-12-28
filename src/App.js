@@ -29,7 +29,6 @@ function App() {
   const [navBar, setNavBar] = useState(false);
 
   const changeBack = () => {
-    console.log(window.scrollY);
     if (window.scrollY >= 80) {
       setNavBar(true);
     } else {
