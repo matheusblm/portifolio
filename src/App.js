@@ -12,7 +12,7 @@ import {
 import { FaGithub, FaLinkedin, FaSitemap } from "react-icons/fa";
 import { useState } from "react";
 
-import profile from "./Assets/images/profile.jpeg";
+import profile from "./Assets/images/profile.png";
 import react from "./Assets/images/kyKz5.png";
 import python from "./Assets/images/python.png";
 import chakraLogo from "./Assets/images/chakraLogo.png";
@@ -90,6 +90,7 @@ function App() {
       <Box
         as="header"
         bg={navBar ? "hsl(232.7,27.3%,23.7%)" : "transparent"}
+        transition="1s"
         position="sticky"
         top="0"
       >
